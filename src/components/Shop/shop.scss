@@ -63,6 +63,7 @@
     background-color: black;
     color: white;
 }
+
 @media only screen and (min-width: 400px) {
 
     .topshoptekst {
@@ -87,5 +88,23 @@
             font-size: 1.1em;
         }
         
+    }
+
+    .sko1 {
+        border: 1px solid black;
+    
+        
+        p {
+            margin-left: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .sko1 {
+        p {
+            display: none;
+        }
     }
 }

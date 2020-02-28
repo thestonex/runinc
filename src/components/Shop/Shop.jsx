@@ -27,12 +27,30 @@ const Shop = () => {
                 </div>
 
                 <div className="bottomshop">
-                    <img src={Shoe1} alt="puma highland 3000 - brown"  title="puma highland 3000 - brown" />
-                    <img src={Shoe2} alt="asics free street" title="asics free street" />
+                    <div className="sko1">
+                     <img src={Shoe1} alt="puma highland 3000 - brown"  title="puma highland 3000 - brown" />
+                        <p>puma highland 3000 - brown</p>
+                     </div>
+                <div className="sko1">     
+                <img src={Shoe2} alt="asics free street" title="asics free street" />
+                    <p>asics free street</p>
+                </div>
+                    <div className="sko1">
                     <img src={Shoe3} alt="new balance runner bounce"  title="new balance runner bounce" />
-                    <img src={Shoe4} alt="new balance new york 2018" title="new balance new york 2018" />
-                    <img src={Shoe1} alt="puma highland 3000 - brown"  title="puma highland 3000 - brown" />
-                    <img src={Shoe2} alt="asics free street"  title="asics free street" />
+                        <p>new balance runner bounce</p>
+                    </div>
+                    <div className="sko1">
+                    <img src={Shoe4} alt="new balance new york 2018" title="new balance new york 2018" /> 
+                        <p>new balance new york 2018</p>
+                    </div>
+                    <div className="sko1">
+                     <img src={Shoe1} alt="puma highland 3000 - brown"  title="puma highland 3000 - brown" />
+                        <p>puma highland 3000 - brown</p>
+                     </div>
+                     <div className="sko1">     
+                     <img src={Shoe2} alt="asics free street" title="asics free street" />
+                         <p>asics free street</p>
+                     </div>
 
                 </div>
                
