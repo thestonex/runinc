@@ -64,11 +64,17 @@
     display: block;
     margin-bottom: 3px;
 }
+input {
+    border: 2px solid black;
+}
+textarea {
+    border: 2px solid black;
+}
 
 @media only screen and (min-width: 400px) {
     
     .contactmapbar {
-        font-size: 40px;
+        font-size: 40px; 
         
     }
     

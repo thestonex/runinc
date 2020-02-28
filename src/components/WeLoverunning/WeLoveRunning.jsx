@@ -10,7 +10,7 @@ const WeLoveRunning = () => {
              <img src={Hero} alt="" className="heroimg" />
             </div>
             <div className="welovegrid">
-            <h2 className="weloveimg h2margin">We Love <span className="spanyellow">Running</span></h2>
+            <h2 className="weloveimg h2margin">WE LOVE <span className="spanyellow">RUNNING</span></h2>
             </div>
         </div>
     )

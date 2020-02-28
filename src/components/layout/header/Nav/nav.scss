@@ -1,8 +1,9 @@
 @import '../../../../globalStyles/variabler';
 // variables : $linkcolor, $linkactivecolor
 .Navbar_link {
-    color: blue;
+    color: black;
     text-decoration: none;
+
 }
 .navbar_link--active {
     color: red;
