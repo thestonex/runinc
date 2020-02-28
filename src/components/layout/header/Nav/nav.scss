@@ -1,0 +1,26 @@
+@import '../../../../globalStyles/variabler';
+// variables : $linkcolor, $linkactivecolor
+.Navbar_link {
+    color: blue;
+    text-decoration: none;
+}
+.navbar_link--active {
+    color: red;
+}
+li {
+    display: inline;
+    margin-left: 2%;
+    
+}
+ul {
+    display: inline;
+}
+nav {
+    display: inline;
+}
+
+@media only screen and (min-width: 400px) {
+    li {
+        margin-left: 10%;
+    }
+}
